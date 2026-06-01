@@ -1,0 +1,101 @@
+.working-hours {
+  background-color: var(--color-white);
+}
+
+.working-hours__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.hours-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--color-shadow);
+  border-top: 4px solid var(--color-primary);
+}
+
+.hours-card--emergency {
+  border-top-color: var(--color-accent);
+}
+
+.hours-card--eye {
+  border-top-color: var(--color-primary-muted);
+}
+
+.hours-card--pediatric {
+  border-top-color: var(--color-primary);
+}
+
+.hours-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hours-card__highlight {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.5rem;
+}
+
+.hours-card__note {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.hours-list {
+  margin: 0;
+}
+
+.hours-list__row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.hours-list__row:last-child {
+  border-bottom: none;
+}
+
+.hours-list dt {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.hours-list dd {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+  .working-hours__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hours-card--emergency {
+    grid-column: 1 / -1;
+  }
+
+  .hours-list__row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .working-hours__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hours-card--emergency {
+    grid-column: auto;
+  }
+}

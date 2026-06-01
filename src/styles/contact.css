@@ -1,0 +1,148 @@
+.contact {
+  background-color: var(--color-bg-soft);
+}
+
+.contact__grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.contact__card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--color-shadow);
+}
+
+.contact__card-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.contact__hospital-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+
+.contact__address {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}
+
+.contact__phone {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.contact__note {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.contact__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__actions .btn {
+  width: 100%;
+}
+
+.contact__hours-summary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact__hours-summary li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+}
+
+.contact__hours-summary li:last-child {
+  border-bottom: none;
+}
+
+.contact__map-wrap {
+  margin-top: 2rem;
+}
+
+.contact__map-title {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.contact__map {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--color-shadow);
+  background: var(--color-white);
+}
+
+.contact__map iframe {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+}
+
+.contact__directions {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .contact__actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contact__actions .btn {
+    width: auto;
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__card--wide {
+    grid-column: 1 / -1;
+  }
+
+  .contact__map iframe {
+    min-height: 360px;
+  }
+
+  .contact__directions {
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact__card--wide {
+    grid-column: 1 / -1;
+  }
+}
