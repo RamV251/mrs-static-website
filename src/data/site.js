@@ -5,6 +5,9 @@ export const PHONE = '8903083531';
 export const PHONE_DISPLAY = '89030 83531';
 export const PHONE_LINK = 'tel:+918903083531';
 export const WHATSAPP_LINK = 'https://wa.me/918903083531';
+export const OPTICAL_PHONE = '8608950636';
+export const OPTICAL_PHONE_DISPLAY = '86089 50636';
+export const OPTICAL_PHONE_LINK = 'tel:+918608950636';
 export const MAPS_URL = 'https://maps.app.goo.gl/Wq6jzBmg52n2Et98A';
 export const MAPS_EMBED =
   'https://maps.google.com/maps?q=MRS+Child+%26+Eye+Care+Hospital+Puliyangudi+Tamil+Nadu&z=16&output=embed';

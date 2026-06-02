@@ -44,6 +44,10 @@
   color: var(--color-primary);
 }
 
+.contact__phone--sm {
+  font-size: 1.25rem;
+}
+
 .contact__note {
   font-size: 0.875rem;
   color: var(--color-text-muted);

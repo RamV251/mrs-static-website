@@ -1,4 +1,5 @@
 import { facilityImages } from './images';
+import { OPTICAL_PHONE_DISPLAY, OPTICAL_PHONE_LINK } from './site';
 
 export const facilities = [
   {
@@ -44,7 +45,9 @@ export const facilities = [
     imageAlt:
       'Optical section with eyeglass displays at eye care hospital Puliyangudi',
     image: facilityImages.optical,
-    contact:'8608950636'
+    phone: OPTICAL_PHONE_DISPLAY,
+    phoneLink: OPTICAL_PHONE_LINK,
+    phoneLabel: 'Optical enquiries',
   },
   {
     id: 'equipment',

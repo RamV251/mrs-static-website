@@ -16,7 +16,7 @@ export const homeServices = [
     id: 'eye-care',
     title: 'Eye Care',
     description:
-      'Expert eye specialist services including comprehensive eye examination, refraction, cataract screening, and children\'s eye care at our eye hospital in Puliyangudi.',
+      'Expert eye specialist services including comprehensive eye examination, refraction, cataract screening, cataract surgery and children\'s eye care at our eye hospital in Puliyangudi.',
     image: images.eyeCare,
     imageAlt:
       'Eye specialist examination at MRS Eye Hospital in Puliyangudi Tamil Nadu',

@@ -91,6 +91,23 @@
   line-height: 1.6;
 }
 
+.facility-card__contact {
+  margin: 1rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.9375rem;
+}
+
+.facility-card__contact-label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.facility-card__contact a {
+  font-weight: 700;
+  font-size: 1.0625rem;
+}
+
 .service-card {
   padding: 1.5rem;
   border-top: 4px solid var(--color-primary);

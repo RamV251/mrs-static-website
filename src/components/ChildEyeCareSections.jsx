@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { images } from '../data/images';
+import { OPTICAL_PHONE_DISPLAY, OPTICAL_PHONE_LINK } from '../data/site';
 import ResponsiveImage from './ResponsiveImage';
 import '../styles/home-sections.css';
 
@@ -74,9 +75,18 @@ export default function ChildEyeCareSections() {
               section offers spectacles and vision aids after professional eye
               examinations.
             </p>
-            <Link to="/doctors" className="btn btn--outline">
-              Meet Our Doctors
-            </Link>
+            <p className="specialty__phone">
+              <strong>Optical section:</strong>{' '}
+              <a href={OPTICAL_PHONE_LINK}>{OPTICAL_PHONE_DISPLAY}</a>
+            </p>
+            <div className="specialty__actions">
+              <a href={OPTICAL_PHONE_LINK} className="btn btn--primary">
+                Call Optical
+              </a>
+              <Link to="/facilities" className="btn btn--outline">
+                View Facilities
+              </Link>
+            </div>
           </div>
         </div>
       </section>

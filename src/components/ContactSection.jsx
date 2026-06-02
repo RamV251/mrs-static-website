@@ -2,6 +2,8 @@ import {
   HOSPITAL_NAME,
   PHONE_DISPLAY,
   PHONE_LINK,
+  OPTICAL_PHONE_DISPLAY,
+  OPTICAL_PHONE_LINK,
   WHATSAPP_LINK,
   MAPS_URL,
   MAPS_EMBED,
@@ -35,6 +37,19 @@ export default function ContactSection() {
               <br />
               {ADDRESS.state}
             </address>
+          </article>
+
+          <article className="contact__card">
+            <h3 className="contact__card-title">Optical Section</h3>
+            <p>
+              <a href={OPTICAL_PHONE_LINK} className="contact__phone contact__phone--sm">
+                {OPTICAL_PHONE_DISPLAY}
+              </a>
+            </p>
+            <p className="contact__note">Spectacles and optical enquiries</p>
+            <a href={OPTICAL_PHONE_LINK} className="btn btn--outline">
+              Call Optical
+            </a>
           </article>
 
           <article className="contact__card">

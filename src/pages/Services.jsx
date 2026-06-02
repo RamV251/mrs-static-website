@@ -5,7 +5,7 @@ import '../styles/pages.css';
 
 const TITLE = 'Pediatric & Eye Care Services | Hospital in Puliyangudi';
 const DESCRIPTION =
-  'Child hospital and eye hospital services in Puliyangudi — vaccination, newborn care, eye examination, cataract screening, and pediatric care for Tenkasi and nearby areas.';
+  'Child hospital and eye hospital services in Puliyangudi — vaccination, newborn care, eye examination, cataract screening, cataract surgery and pediatric care for Tenkasi and nearby areas.';
 
 export default function Services() {
   return (
@@ -15,9 +15,7 @@ export default function Services() {
         <div className="container">
           <h1 className="page-header__title">Healthcare Services</h1>
           <p className="page-header__subtitle">
-            Comprehensive pediatric hospital and eye care hospital services at our
-            clinic in Puliyangudi — also serving Tenkasi, Sankarankovil, and
-            Kadayanallur.
+            Comprehensive pediatric and eye care services at our hospital in Puliyangudi, providing trusted healthcare for families across Tenkasi, Sankarankovil, Kadayanallur, Vasudevanallur, Sivagiri, and nearby towns.
           </p>
         </div>
       </div>
