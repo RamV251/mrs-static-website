@@ -45,7 +45,7 @@ export default function ChildEyeCareSections() {
             <h2 id="eye-care-heading">Eye Care &amp; Eye Hospital</h2>
             <p>
               Visit our eye hospital in Puliyangudi for comprehensive eye
-              examination, refraction, cataract screening, diabetic eye evaluation,
+              examination, refraction, cataract screening, cataract surgery, diabetic eye evaluation,
               and children&apos;s eye care. We are a leading eye specialist destination
               for patients from Tenkasi and Vasudevanallur.
             </p>

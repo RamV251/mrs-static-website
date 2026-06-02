@@ -44,6 +44,7 @@ export const facilities = [
     imageAlt:
       'Optical section with eyeglass displays at eye care hospital Puliyangudi',
     image: facilityImages.optical,
+    contact:'8608950636'
   },
   {
     id: 'equipment',
