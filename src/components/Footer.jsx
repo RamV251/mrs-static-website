@@ -116,6 +116,10 @@ export default function Footer() {
           <p>
             &copy; {year} {HOSPITAL_NAME}. All rights reserved.
           </p>
+          <p>
+  Website designed & developed by
+  <a href="https://avryon.com"> Avryon Technologies</a>
+          </p>
         </div>
       </div>
     </footer>
