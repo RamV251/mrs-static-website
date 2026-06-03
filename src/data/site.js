@@ -32,6 +32,9 @@ export const SERVICE_AREAS = [
 export const INTRO =
   'MRS Child & Eye Care Hospital is a trusted child hospital and eye hospital in Puliyangudi, offering pediatric care, eye specialist consultation, vaccination, and 24/7 emergency support for families across Tenkasi and nearby towns.';
 
+export const ABOUT_TEXT =
+  '      MRS Child & Eye Care Hospital brings pediatric and eye care together under one roof in Puliyangudi, with attentive consultations, clear guidance for parents, and a calm setting for children—from routine visits and vaccinations to eye check-ups.';
+
 export const MISSION =
   'To deliver compassionate, affordable, and high-quality pediatric and ophthalmology healthcare for children and families in Puliyangudi, Tenkasi, and surrounding communities.';
 
