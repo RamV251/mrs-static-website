@@ -15,7 +15,7 @@ export const SITE_URL = 'https://mrschildandeyecare.com';
 
 export const ADDRESS = {
   line1: 'MRS Child & Eye Care Hospital',
-  line2: 'Puliyangudi, Tirunelveli District',
+  line2: 'Puliyangudi, Tenkasi District',
   state: 'Tamil Nadu, India',
   full: 'MRS Child & Eye Care Hospital, Puliyangudi, Tirunelveli District, Tamil Nadu, India',
 };

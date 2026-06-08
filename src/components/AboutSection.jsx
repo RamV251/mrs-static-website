@@ -11,7 +11,7 @@ export default function AboutSection() {
         <SectionHeader
           id="about-heading"
           title="About MRS Hospital"
-          subtitle="Paediatric and eye care for families in Puliyangudi and Tirunelveli district."
+          subtitle="Paediatric and eye care for families in Puliyangudi and Tenkasi district."
         />
 
         <div className="about__grid">
